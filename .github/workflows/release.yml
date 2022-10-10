@@ -15,7 +15,7 @@ name: Release
 
 on:
   push:
-    branches: ["builds"]
+    branches: ["initial_dev"]
   release:
     types: [published]
   schedule:
