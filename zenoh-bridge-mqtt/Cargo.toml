@@ -31,7 +31,7 @@ lazy_static = "1.4.0"
 log = "0.4"
 serde_json = "1.0.71"
 zenoh = { git = "https://github.com/eclipse-zenoh/zenoh", features = ["unstable"] }
-zenoh-plugin-rest = { git = "https://github.com/eclipse-zenoh/zenoh", default-features = false }
+# zenoh-plugin-rest = { git = "https://github.com/eclipse-zenoh/zenoh", default-features = false }
 zenoh-plugin-trait = { git = "https://github.com/eclipse-zenoh/zenoh", default-features = false }
 zplugin-mqtt = { path = "../zplugin-mqtt", default-features = false }
 

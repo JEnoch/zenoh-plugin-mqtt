@@ -178,8 +178,9 @@ async fn main() {
 
     // start REST plugin
     if rest_plugin {
-        use zenoh_plugin_trait::Plugin;
-        zplugin_rest::RestPlugin::start("rest", &runtime).unwrap();
+        // use zenoh_plugin_trait::Plugin;
+        // zplugin_rest::RestPlugin::start("rest", &runtime).unwrap();
+        log::error!("REST plugin not linked for testing purpose...")
     }
 
     // start MQTT plugin
