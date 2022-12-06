@@ -104,28 +104,28 @@ jobs:
               os: ubuntu-latest,
               use-cross: true,
             }
-          - {
-              target: arm-unknown-linux-gnueabi,
-              arch: armel,
-              os: ubuntu-latest,
-              use-cross: true,
-            }
-          - {
-              target: arm-unknown-linux-gnueabihf,
-              arch: armhf,
-              os: ubuntu-latest,
-              use-cross: true,
-            }
-          - {
-              target: armv7-unknown-linux-gnueabihf,
-              arch: armhf,
-              os: ubuntu-latest,
-              use-cross: true,
-            }
+          # - {
+          #     target: arm-unknown-linux-gnueabi,
+          #     arch: armel,
+          #     os: ubuntu-latest,
+          #     use-cross: true,
+          #   }
+          # - {
+          #     target: arm-unknown-linux-gnueabihf,
+          #     arch: armhf,
+          #     os: ubuntu-latest,
+          #     use-cross: true,
+          #   }
+          # - {
+          #     target: armv7-unknown-linux-gnueabihf,
+          #     arch: armhf,
+          #     os: ubuntu-latest,
+          #     use-cross: true,
+          #   }
           - {
               target: aarch64-unknown-linux-gnu,
               arch: arm64,
-              os: ubuntu-latest,
+              os: macos-latest,
               use-cross: true,
             }
           - {
